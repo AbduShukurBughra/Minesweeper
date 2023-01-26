@@ -5,6 +5,7 @@ import java.awt.*;
 
 public class GameWin extends JFrame {
 
+    MapBottom mapBottom = new MapBottom();
     void launch(){
         this.setVisible(true);
         this.setSize(500, 500);
@@ -15,9 +16,7 @@ public class GameWin extends JFrame {
 
     @Override
     public void paint(Graphics g) {
-        g.setColor(Color.red);
-        g.drawLine(100,100,100,400);
-        g.drawLine(100,100,400,100);
+        mapBottom.paintSelf(g);
     }
 
     public static void main(String[] args) {
