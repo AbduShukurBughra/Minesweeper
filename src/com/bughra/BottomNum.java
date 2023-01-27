@@ -10,9 +10,7 @@ public class BottomNum {
                             if (GameUtil.DATA_BOTTOM[k][l]>=0){
                                 GameUtil.DATA_BOTTOM[k][l]++;
                             }
-
                         }
-
                     }
                 }
             }
