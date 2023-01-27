@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6bd13e3-d171-4011-9537-9d25ed808a5e" name="Changes" comment="MapBottom Class finish">
-      <change afterPath="$PROJECT_DIR$/images/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/win.png" afterDir="false" />
+    <list default="true" id="a6bd13e3-d171-4011-9537-9d25ed808a5e" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bughra/GameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bughra/GameUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bughra/GameWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bughra/GameWin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bughra/MapBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bughra/MapBottom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KqpIgcdY1YxpGSDUUzuBDNzl8O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,22 +18,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/Desktop/Minesweeper/images"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Desktop\Minesweeper\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Desktop\Minesweeper" />
-      <recent name="C:\Users\HP\Desktop\Minesweeper\imgs" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="GameWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -79,29 +50,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674711891531</updated>
-      <workItem from="1674711892907" duration="821000" />
-      <workItem from="1674714785656" duration="538000" />
-      <workItem from="1674758946099" duration="3892000" />
     </task>
-    <task id="LOCAL-00001" summary="GameWin Class">
-      <created>1674715145746</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674715145746</updated>
-    </task>
-    <task id="LOCAL-00002" summary="MapBottom Class finish">
-      <created>1674759529953</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1674759529953</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -113,10 +63,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="GameWin Class" />
-    <MESSAGE value="MapBottom Class finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="MapBottom Class finish" />
   </component>
 </project>
