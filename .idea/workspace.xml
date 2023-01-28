@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6bd13e3-d171-4011-9537-9d25ed808a5e" name="Changes" comment="bottom Num finish">
+    <list default="true" id="a6bd13e3-d171-4011-9537-9d25ed808a5e" name="Changes" comment="Mouse right click">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bughra/MapTop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bughra/MapTop.java" afterDir="false" />
     </list>
@@ -84,7 +84,8 @@
       <workItem from="1674711892907" duration="821000" />
       <workItem from="1674714785656" duration="538000" />
       <workItem from="1674758946099" duration="11693000" />
-      <workItem from="1674798059512" duration="2291000" />
+      <workItem from="1674798059512" duration="2517000" />
+      <workItem from="1674854793681" duration="3429000" />
     </task>
     <task id="LOCAL-00001" summary="GameWin Class">
       <created>1674715145746</created>
@@ -121,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674798726134</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mouse right click">
+      <created>1674800444711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674800444711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mouse right click">
+      <created>1674800487296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674800487296</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +171,7 @@
     <MESSAGE value="MapTop finish" />
     <MESSAGE value="bottom map finish" />
     <MESSAGE value="bottom Num finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="bottom Num finish" />
+    <MESSAGE value="Mouse right click" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mouse right click" />
   </component>
 </project>
