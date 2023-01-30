@@ -19,6 +19,7 @@ public class MapTop {
         if (temp_x >= 1 && temp_x <= GameUtil.MAP_W
                 && temp_y >= 1 && temp_y <= GameUtil.MAP_H) {
             if (GameUtil.LEFT_BUTTON) {
+                //覆盖，则翻开
                 if (GameUtil.DATA_TOP[temp_x][temp_y] == 0) {
                     GameUtil.DATA_TOP[temp_x][temp_y] = -1;
                 }
@@ -26,12 +27,62 @@ public class MapTop {
                 GameUtil.LEFT_BUTTON = false;
             }
             if (GameUtil.RIGHT_BUTTON) {
-
-                System.out.println(GameUtil.MOUSE_X);
-                System.out.println(GameUtil.MOUSE_Y);
+                //覆盖则插旗
+                if (GameUtil.DATA_TOP[temp_x][temp_y] == 0) {
+                    GameUtil.DATA_TOP[temp_x][temp_y] = 1;
+                }
+                //插旗则取消
+                else if (GameUtil.DATA_TOP[temp_x][temp_y] == 1) {
+                    GameUtil.DATA_TOP[temp_x][temp_y] = 0;
+                }
+                else if (GameUtil.DATA_TOP[temp_x][temp_y] ==-1){
+                    numOpen(temp_x, temp_y);
+                }
                 GameUtil.RIGHT_BUTTON = false;
             }
         }
+        boom();
+    }
+
+    void numOpen(int x, int y) {
+        int count = 0;
+        if (GameUtil.DATA_BOTTOM[x][y] > 0) {
+            for (int i = x - 1; i <= x + 1; i++) {
+                for (int j = y - 1; j <= y + 1; j++) {
+                    if (GameUtil.DATA_TOP[i][j]==1) {
+                        count++;
+                    }
+                }
+            }
+            if (count == GameUtil.DATA_BOTTOM[x][y]) {
+                for (int i = x - 1; i <= x + 1; i++) {
+                    for (int j = y - 1; j <= y + 1; j++) {
+                        if (GameUtil.DATA_TOP[i][j]!=1){
+                            GameUtil.DATA_TOP[i][j] =-1;
+                        }
+                        //必须在雷区当中
+                        if (i >= 1 && j >= 1 && i <= GameUtil.MAP_W && j <= GameUtil.MAP_H) {
+                            spaceOpen(i, j);
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    //失败判定 ture - 失败  false - 未失败
+    boolean boom() {
+        for (int i = 1; i <=GameUtil.MAP_W; i++) {
+            for (int j = 1; j <= GameUtil.MAP_H; j++) {
+                if (GameUtil.DATA_BOTTOM[i][j]==-1 && GameUtil.DATA_TOP[i][j]==-1) {
+                    System.out.println("Game Over!");
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     void spaceOpen(int x, int y) {
